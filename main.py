@@ -53,7 +53,7 @@ class App:
         self.canvas.create_rectangle(130, 110, 290, 270)
         self.canvas.pack()
     
-        im = Image.open("src/ctverec.jpg")
+        im = Image.open("ctverec.jpg")
         im.show()
 
         self.text = Text()
@@ -83,7 +83,7 @@ class App:
         self.canvas.create_rectangle(130, 110, 290, 270)
         self.canvas.pack()
         
-        im = Image.open("src/obdelnik.jpg")
+        im = Image.open("obdelnik.jpg")
         im.show()
 
         self.text = Text()
@@ -124,7 +124,7 @@ class App:
         self.canvas.create_polygon(points)
         self.canvas.pack()
         
-        im = Image.open("src/trojuhelnik.jpg")
+        im = Image.open("trojuhelnik.jpg")
         im.show()
 
         self.text = Text()
